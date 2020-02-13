@@ -1,4 +1,4 @@
-name: 'dbt_utils'
+name: 'dbt_utils_hj'
 version: '0.1.0'
 
 require-dbt-version: ">=0.14.0"
