@@ -2,7 +2,7 @@
 
     {%- call statement('get_intervals_between', fetch_result=True) %}
 
-        select {{dbt_utils.datediff(start_date, end_date, datepart)}}
+        select {{dbt_utils_hj.datediff(start_date, end_date, datepart)}}
 
     {%- endcall -%}
 
